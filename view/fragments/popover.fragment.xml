@@ -1,0 +1,25 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+>
+    <Popover
+        showHeader="false"
+        id="myPopover"
+        placement="Bottom"
+    >
+        <List mode="SingleSelectMaster" itemPress="onContactPress">
+            <items>
+                <CustomListItem>
+                    <Link
+                        href="https://www.linkedin.com/in/doglasoliveira/"
+                        target="_Blank"
+                        text="Linkedin"
+                    />
+                </CustomListItem>
+                <CustomListItem type="Active">
+                    <Text text="Contact" />
+                </CustomListItem>
+            </items>
+        </List>
+    </Popover>
+</c:FragmentDefinition>

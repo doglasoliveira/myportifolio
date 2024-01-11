@@ -1,0 +1,36 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+>
+    <Dialog
+        title="Contact"
+        contentWidth="70%"
+        contentHeight="70%"
+    >
+        <content>
+            <f:SimpleForm>
+                <f:content>
+                    <c:Title text="Personal Information" />
+                    <Label text="Name" />
+                    <Text text="Doglas Oliveira" />
+                    <Label text="emaail" />
+                    <Text text="doglas@email.com" />
+                    <c:Title text="Last Projects" />
+                    <Label text="Javascript" />
+                    <Text text="ioasdijaiodj" />
+                    <Label text="Abap" />
+                    <Text text="ioasdijaiodj" />
+                    <Label text="React" />
+                    <Text text="ioasdijaiodj" />
+                </f:content>
+            </f:SimpleForm>
+        </content>
+        <endButton>
+            <Button
+                text="Close"
+                press="onCloseContact"
+            />
+        </endButton>
+    </Dialog>
+</c:FragmentDefinition>

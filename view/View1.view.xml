@@ -1,0 +1,161 @@
+<mvc:View
+    controllerName="dashboard.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+>
+    <Page showHeader="false">
+        <content>
+            <tnt:ToolHeader
+                id="shellLikeToolHeader"
+                class="sapUiTinyMargin"
+            >
+                <Button
+                    icon="sap-icon://home"
+                    type="Transparent"
+                    tooltip="Menu"
+                >
+                    <layoutData>
+                        <OverflowToolbarLayoutData priority="NeverOverflow" />
+                    </layoutData>
+                </Button>
+                <Title
+                    text="My Portfolio"
+                    wrapping="false"
+                    id="title"
+                >
+                    <layoutData>
+                        <OverflowToolbarLayoutData priority="Disappear" />
+                    </layoutData>
+                </Title>
+                <Text
+                    text="with SAPUI5"
+                    wrapping="false"
+                    id="secondTitle"
+                >
+                    <layoutData>
+                        <OverflowToolbarLayoutData priority="Disappear" />
+                    </layoutData>
+                </Text>
+                <ToolbarSpacer />
+                <SearchField
+                    width="16rem"
+                    id="searchField"
+                >
+                    <layoutData>
+                        <OverflowToolbarLayoutData
+                            priority="Low"
+                            group="1"
+                        />
+                    </layoutData>
+                </SearchField>
+                <ToolbarSpacer id="spacer">
+                    <layoutData>
+                        <OverflowToolbarLayoutData
+                            priority="Low"
+                            group="1"
+                        />
+                    </layoutData>
+                </ToolbarSpacer>
+                <MenuButton icon="sap-icon://palette">
+                    <Menu itemSelected="onChangeTheme">
+                        <items>
+                            <MenuItem id="idLightMenuItem" text="Light" icon="sap-icon://light-mode"/>
+                            <MenuItem id="idDarkMenuItem" text="Dark" icon="sap-icon://dark-mode"/>
+                        </items>
+                    </Menu>
+                </MenuButton>
+                <tnt:ToolHeaderUtilitySeparator />
+                <ToolbarSpacer width="1.125rem" />
+                <Avatar
+                    src="test-resources/sap/tnt/images/Woman_avatar_01.png"
+                    displaySize="XS"
+                    press="onProfilePress"
+                    tooltip="Profile"
+                >
+                    <layoutData>
+                        <OverflowToolbarLayoutData priority="NeverOverflow" />
+                    </layoutData>
+                </Avatar>
+            </tnt:ToolHeader>
+            <HBox wrap="Wrap">
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile class="sapUiSmallMargin">
+                    <TileContent>
+                        <Text text="1th App" />
+                    </TileContent>
+                </GenericTile>
+            </HBox>
+        </content>
+    </Page>
+</mvc:View>
