@@ -61,8 +61,16 @@
                 <MenuButton icon="sap-icon://palette">
                     <Menu itemSelected="onChangeTheme">
                         <items>
-                            <MenuItem id="idLightMenuItem" text="Light" icon="sap-icon://light-mode"/>
-                            <MenuItem id="idDarkMenuItem" text="Dark" icon="sap-icon://dark-mode"/>
+                            <MenuItem
+                                id="idLightMenuItem"
+                                text="Light"
+                                icon="sap-icon://light-mode"
+                            />
+                            <MenuItem
+                                id="idDarkMenuItem"
+                                text="Dark"
+                                icon="sap-icon://dark-mode"
+                            />
                         </items>
                     </Menu>
                 </MenuButton>
@@ -80,79 +88,15 @@
                 </Avatar>
             </tnt:ToolHeader>
             <HBox wrap="Wrap">
-                <GenericTile class="sapUiSmallMargin">
+                <GenericTile
+                    header="Meu Paplpite Game"
+                    subheader="UI5 Webpage"
+                    class="sapUiSmallMargin"
+                    headerImage="sap-icon://soccer"
+                    press="onPressPalpite"
+                >
                     <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
-                    </TileContent>
-                </GenericTile>
-                <GenericTile class="sapUiSmallMargin">
-                    <TileContent>
-                        <Text text="1th App" />
+                        <Text text="Crie gruipos de palpites para o teus clube favorito" />
                     </TileContent>
                 </GenericTile>
             </HBox>

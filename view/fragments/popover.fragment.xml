@@ -7,7 +7,7 @@
         id="myPopover"
         placement="Bottom"
     >
-        <List mode="SingleSelectMaster" itemPress="onContactPress">
+        <List mode="SingleSelectMaster" itemPress="onContactPress" class="sapUiTinyMargin">
             <items>
                 <CustomListItem>
                     <Link

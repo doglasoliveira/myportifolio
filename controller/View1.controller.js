@@ -63,6 +63,10 @@ sap.ui.define([
                 const theme = oEvent.getParameter("item").getProperty("text");
                 const nTheme = (theme === "Light") ? "sap_horizon" : "sap_horizon_dark";
                 sap.ui.getCore().getConfiguration().setTheme(nTheme);
+            },
+
+            onPressPalpite: function(oEvent){
+                window.open('https://meupalpitegame.com/#', '_blank')
             }
         });
     });
