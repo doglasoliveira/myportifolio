@@ -77,7 +77,7 @@
                 <tnt:ToolHeaderUtilitySeparator />
                 <ToolbarSpacer width="1.125rem" />
                 <Avatar
-                    src="test-resources/sap/tnt/images/Woman_avatar_01.png"
+                    src="../../img/DoglasAvatar.png"
                     displaySize="XS"
                     press="onProfilePress"
                     tooltip="Profile"

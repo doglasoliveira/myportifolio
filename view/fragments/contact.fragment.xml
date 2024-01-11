@@ -10,7 +10,7 @@
                     <Label text="Name" />
                     <Text text="Doglas Oliveira" />
                     <Label text="Email" />
-                    <Text text="doglas@email.com" />
+                    <Text text="doglas.oliveira@hotmail.com" />
                     <Label text="Country Based" />
                     <Text text="Portugal" />
                 </f:content>
