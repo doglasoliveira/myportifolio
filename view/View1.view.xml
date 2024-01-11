@@ -96,7 +96,7 @@
                     press="onPressPalpite"
                 >
                     <TileContent>
-                        <Text text="Crie gruipos de palpites para o teus clube favorito" />
+                        <Text text="Crie grupos de palpites para o teu clube favorito" />
                     </TileContent>
                 </GenericTile>
             </HBox>
