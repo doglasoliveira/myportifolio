@@ -67,6 +67,10 @@ sap.ui.define([
 
             onPressPalpite: function(oEvent){
                 window.open('https://meupalpitegame.com/#', '_blank')
+            },
+
+            onPressCheckPrices: function(oEvent){
+                window.open('https://doglasoliveira.github.io/checkproducts/', '_blank')
             }
         });
     });

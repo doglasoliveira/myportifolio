@@ -99,6 +99,17 @@
                         <Text text="Crie grupos de palpites para o teu clube favorito" />
                     </TileContent>
                 </GenericTile>
+                <GenericTile
+                    header="Check Prices"
+                    subheader="UI5 Webpage"
+                    class="sapUiSmallMargin"
+                    headerImage="sap-icon://product"
+                    press="onPressCheckPrices"
+                >
+                    <TileContent>
+                        <Text text="Crie grupos de palpites para o teu clube favorito" />
+                    </TileContent>
+                </GenericTile>
             </HBox>
         </content>
     </Page>
