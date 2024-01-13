@@ -7,7 +7,12 @@
         id="myPopover"
         placement="Bottom"
     >
-        <List mode="SingleSelectMaster" itemPress="onContactPress" class="sapUiTinyMargin">
+        <List
+            mode="SingleSelectMaster"
+            itemPress="onContactPress"
+            class="sapUiTinyMargin"
+            width="90%"
+        >
             <items>
                 <CustomListItem>
                     <Link
@@ -18,6 +23,12 @@
                 </CustomListItem>
                 <CustomListItem type="Active">
                     <Text text="Contact" />
+                </CustomListItem>
+                <CustomListItem>
+                    <Link
+                        text="CV Download"
+                        press="./file/DOGLASOLIVEIRA2023.docx"
+                    />
                 </CustomListItem>
             </items>
         </List>

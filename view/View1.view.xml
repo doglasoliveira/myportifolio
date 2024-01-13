@@ -89,7 +89,7 @@
             </tnt:ToolHeader>
             <HBox wrap="Wrap">
                 <GenericTile
-                    header="Meu Paplpite Game"
+                    header="Meu Palpite Game"
                     subheader="UI5 Webpage"
                     class="sapUiSmallMargin"
                     headerImage="sap-icon://soccer"
