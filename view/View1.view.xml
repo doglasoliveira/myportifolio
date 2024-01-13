@@ -96,7 +96,7 @@
                     press="onPressPalpite"
                 >
                     <TileContent>
-                        <Text text="Crie grupos de palpites para o teu clube favorito" />
+                        <Text text="Create prediction groups for your favorite club" />
                     </TileContent>
                 </GenericTile>
                 <GenericTile
@@ -107,7 +107,7 @@
                     press="onPressCheckPrices"
                 >
                     <TileContent>
-                        <Text text="Crie grupos de palpites para o teu clube favorito" />
+                        <Text text="Sample of check product price with oData" />
                     </TileContent>
                 </GenericTile>
             </HBox>
