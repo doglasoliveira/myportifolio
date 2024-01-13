@@ -82,6 +82,8 @@ sap.ui.define([
                     this.onClearSearchTiles();
                     return;
                 }
+
+                this.onClearSearchTiles();
                 const oModelTiles = models.createTilesModel().getData();
 
                 const oTileId = oModelTiles.listTiles.filter(item => {
