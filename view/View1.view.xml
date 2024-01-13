@@ -11,15 +11,6 @@
                 id="shellLikeToolHeader"
                 class="sapUiTinyMargin"
             >
-                <Button
-                    icon="sap-icon://home"
-                    type="Transparent"
-                    tooltip="Menu"
-                >
-                    <layoutData>
-                        <OverflowToolbarLayoutData priority="NeverOverflow" />
-                    </layoutData>
-                </Button>
                 <Title
                     text="My Portfolio"
                     wrapping="false"
@@ -42,6 +33,8 @@
                 <SearchField
                     width="16rem"
                     id="searchField"
+                    search="onSearchTile"
+                    
                 >
                     <layoutData>
                         <OverflowToolbarLayoutData
@@ -89,6 +82,7 @@
             </tnt:ToolHeader>
             <HBox wrap="Wrap">
                 <GenericTile
+                    id="idGenericTileMPG"
                     header="Meu Palpite Game"
                     subheader="UI5 Webpage"
                     class="sapUiSmallMargin"
@@ -100,6 +94,7 @@
                     </TileContent>
                 </GenericTile>
                 <GenericTile
+                    id="idGenericTileCP"
                     header="Check Prices"
                     subheader="UI5 Webpage"
                     class="sapUiSmallMargin"

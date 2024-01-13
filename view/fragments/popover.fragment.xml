@@ -21,14 +21,14 @@
                         text="Linkedin"
                     />
                 </CustomListItem>
-                <CustomListItem type="Active">
-                    <Text text="Contact" />
-                </CustomListItem>
                 <CustomListItem>
                     <Link
                         text="CV Download"
                         href="./file/DOGLASOLIVEIRA2023.docx"
                     />
+                </CustomListItem>
+                <CustomListItem type="Active">
+                    <Text text="Contact" />
                 </CustomListItem>
             </items>
         </List>
