@@ -27,7 +27,7 @@
                 <CustomListItem>
                     <Link
                         text="CV Download"
-                        press="./file/DOGLASOLIVEIRA2023.docx"
+                        href="./file/DOGLASOLIVEIRA2023.docx"
                     />
                 </CustomListItem>
             </items>
